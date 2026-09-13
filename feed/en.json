@@ -1,0 +1,254 @@
+{
+ "version": 1,
+ "lang": "en",
+ "updatedAt": "2026-11-15",
+ "insights": [
+  {
+   "id": "first-two-weeks",
+   "lang": "en",
+   "title": "The first two weeks off Wegovy: what actually happens",
+   "summary": "The drug does not leave at once. With a one-week half-life, the first two weeks are still medicated time.",
+   "body": [
+    "After the last injection most people expect appetite to explode. Instead the first week is strangely quiet. Portions stay the same, the scale stays the same. So you relax, stop logging, and in week three you get a surprise.",
+    "Semaglutide (Wegovy) has a half-life of about seven days. A week after the last dose half is still there; after two weeks, a quarter. Tirzepatide (Mounjaro, Zepbound) clears a little faster at about five days. Either way, the first two weeks are still medicated time.",
+    "That is why nothing moves. Your body is not holding the line; the drug is still working."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/first-two-weeks.en.html",
+   "action": "checkin",
+   "actionLabel": "Log today",
+   "trigger": {
+    "planType": [
+     "stopped"
+    ],
+    "maxDay": 14
+   },
+   "priority": 90,
+   "publishedAt": "2026-09-13"
+  },
+  {
+   "id": "food-noise",
+   "lang": "en",
+   "title": "Food noise comes back before appetite, and you can measure it",
+   "summary": "Recurring food thoughts move two to three weeks ahead of the scale.",
+   "body": [
+    "The first change people on Wegovy describe is not weight. It is silence. The fridge, the delivery app, the corner shop on the way home stop calling when you are not even hungry. That chatter is food noise.",
+    "It is also the first thing that returns when you stop. Most people do not use it as a signal. They notice it in hindsight, after the scale has moved.",
+    "Weight swings about a kilogram a day with water and salt, so a real change takes two to three weeks to show through the noise. Food noise rises the moment the appetite circuits wake up, typically two to three weeks after the last dose when a quarter of the drug is left."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/food-noise.en.html",
+   "action": "checkin",
+   "actionLabel": "Log food noise",
+   "trigger": {
+    "appetiteRising": true
+   },
+   "priority": 80,
+   "publishedAt": "2026-09-20"
+  },
+  {
+   "id": "hundred-days",
+   "lang": "en",
+   "title": "100 days off: what the data say",
+   "summary": "By day 100 the direction is set. The difference between keeping it and losing it was made in the first 30 days.",
+   "body": [
+    "Day 100 is not magic. It is about fourteen half-lives: the drug fully gone, the body settled into its new balance, two more months on top. Where the 7-day average sits then says most of what a year will say.",
+    "In trials, regain a year after stopping was about two-thirds of the loss. In real-world data (Cleveland Clinic, 2026), average regain a year later was far smaller. Same drug, same stop. The difference: people in real clinics did something in the first few months. Rebuilt a routine, or went to a maintenance dose with their clinician.",
+    "So the day-100 result was not decided on day 100. It was decided in the first 30 days."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/hundred-days.en.html",
+   "action": "trends",
+   "actionLabel": "See trends",
+   "trigger": {
+    "minDay": 90
+   },
+   "priority": 50,
+   "publishedAt": "2026-11-08"
+  },
+  {
+   "id": "low-dose-vs-stop",
+   "lang": "en",
+   "title": "Lower dose vs. stopping: what the trials say",
+   "summary": "People who stayed on a reduced dose kept more of the loss than people who stopped outright.",
+   "body": [
+    "\"I cannot afford to keep going, and if I stop it all comes back.\" That sentence is missing an option: taking less.",
+    "In STEP-4, the group switched from semaglutide to placebo regained about two-thirds of the loss within a year. SURMOUNT-4 showed the same for tirzepatide. Maintenance studies from 2025 and 2026 looked at a different group: people kept on half the dose, or a dose every two weeks. Their regain stopped at less than half of the full-stop group's.",
+    "The reason is simple. Keeping the appetite circuits quiet takes less drug than losing weight did."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/low-dose-vs-stop.en.html",
+   "action": "plan",
+   "actionLabel": "See my plan",
+   "trigger": {
+    "planType": [
+     "lower_dose",
+     "extended_interval",
+     "taper"
+    ],
+    "minDay": 7
+   },
+   "priority": 60,
+   "publishedAt": "2026-10-04"
+  },
+  {
+   "id": "not-willpower",
+   "lang": "en",
+   "title": "Regain is not a willpower problem",
+   "summary": "A little weight coming back is pharmacology, not failure. This is the easiest moment to act.",
+   "body": [
+    "The first thought when a kilo or two comes back is usually the same: \"So it was the drug all along. I was never going to manage this.\" Then the app gets deleted, the scale goes in the cupboard, and six months later there is a new appointment.",
+    "This article is about why that thought is wrong. With numbers.",
+    "GLP-1 drugs act directly on the appetite circuits in the brain: less hunger signalling, earlier fullness, fewer looping food thoughts. What felt like stronger willpower on the drug was those circuits going quiet."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/not-willpower.en.html",
+   "action": "trends",
+   "actionLabel": "See trends",
+   "trigger": {
+    "status": [
+     "watch"
+    ]
+   },
+   "priority": 85,
+   "publishedAt": "2026-09-13"
+  },
+  {
+   "id": "oral-wegovy",
+   "lang": "en",
+   "title": "What oral Wegovy changes, and what it does not",
+   "summary": "Semaglutide without the needle is here. In maintenance, some things change and the pharmacology does not.",
+   "body": [
+    "Oral semaglutide was approved for weight management in 2026, and pills like orforglipron are following. Plenty of headlines; nobody explains what it means for someone two months off the injection.",
+    "First, the threshold. For people who never started or who stopped because of needles, a pill is a different option. Second, price. Pills are cheaper to make and competition is arriving, so they are settling below injections. Third, maintenance. A low daily pill is easier to fine-tune than \"half an injection\".",
+    "The pharmacology is the same. Swallowed or injected, it acts on the GLP-1 receptor, and when it stops the appetite circuits return. Half-lives are similar, so the weeks after stopping follow the same curve. Protecting muscle still takes protein and strength work."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/oral-wegovy.en.html",
+   "action": "plan",
+   "actionLabel": "See my plan",
+   "trigger": {
+    "minDay": 30
+   },
+   "priority": 45,
+   "publishedAt": "2026-10-11"
+  },
+  {
+   "id": "protein-strength",
+   "lang": "en",
+   "title": "Why protein and strength slow regain",
+   "summary": "A quarter of what you lost was muscle. Less muscle means a lower resting burn and regain on the same food.",
+   "body": [
+    "If you lost 10 kg, 2.5 to 4 kg of it was not fat. It was lean mass, mostly muscle. That number repeats across GLP-1 trials. Eating less on the drug meant the body burned some muscle along with the fat.",
+    "A kilogram of muscle burns about 13 kcal a day doing nothing. Lose 4 kg and that is 50 kcal a day, 1,500 a month, gone. It sounds small; it is the pace of 200 g of fat a month. It is one answer to \"I eat what I used to, why am I gaining?\"",
+    "2026 prescribing guidance started listing both as standard companions to GLP-1 therapy. After stopping they matter more, because muscle takes over part of the drug's job."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/protein-strength.en.html",
+   "action": "checkin",
+   "actionLabel": "Check today",
+   "trigger": {
+    "lowProtein": true,
+    "minDay": 7
+   },
+   "priority": 65,
+   "publishedAt": "2026-10-25"
+  },
+  {
+   "id": "restart-cost",
+   "lang": "en",
+   "title": "The price of restarting Wegovy, done as a calculation",
+   "summary": "2026 prices are lower. A restart is still a monthly fixed cost. Put the numbers down before deciding.",
+   "body": [
+    "Half of the reason people put off restarting is money, and most never do the sum. There is only a feeling: \"that bill again\". Numbers make the decision easier.",
+    "Prices vary by market and coverage, but the direction in 2026 is down: list prices were cut, direct-to-patient programmes appeared, and oral semaglutide launched below injection prices. In most markets a month at a maintenance dose now costs a fraction of a month at the top dose.",
+    "Which one fits is set by regain share from your lowest weight. Under 20%, option three comes first. Over 40%, options one and two are worth discussing with your clinician."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/restart-cost.en.html",
+   "action": "report",
+   "actionLabel": "Make the report",
+   "trigger": {
+    "status": [
+     "watch",
+     "consult"
+    ],
+    "minDay": 30
+   },
+   "priority": 55,
+   "publishedAt": "2026-10-18"
+  },
+  {
+   "id": "restart-question",
+   "lang": "en",
+   "title": "Restart Wegovy? Three numbers to look at first",
+   "summary": "Decide on evidence, not a feeling: regain share, appetite trend, weeks since the last dose.",
+   "body": [
+    "A few months off, a fair amount of weight back, and the same question on loop: should I restart? The question hides two different things. A real need, and plain anxiety. Three numbers separate them.",
+    "Measured from your lowest weight, not your starting weight. Started at 78 kg, reached 63, now 69: that is 6 of 15 kg back, or 40%.",
+    "Many clinicians use 50% regain as the trigger to intervene again. Kept shows \"talk to your doctor\" earlier, at 40%. That is the zone where a restart conversation is worth having. Under 20%, routine comes before medication."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/restart-question.en.html",
+   "action": "report",
+   "actionLabel": "Make the report",
+   "trigger": {
+    "status": [
+     "consult"
+    ]
+   },
+   "priority": 95,
+   "publishedAt": "2026-09-13"
+  },
+  {
+   "id": "seven-day-average",
+   "lang": "en",
+   "title": "Why Kept uses a 7-day average, not the scale",
+   "summary": "A single morning weight swings about a kilogram. That is why the status waits a few days.",
+   "body": [
+    "You step on the scale and it is up 0.8 kg from yesterday. You remember the salty dinner and the extra water, and the mood still sinks for the day. Tomorrow it is down 0.6 and you relax. Repeat for a month and you will hate the scale.",
+    "Five grams of salt holds a litre of water. A hundred grams of carbohydrate stores 300 to 400 g of water with glycogen. Digestion, the menstrual cycle and short sleep each move hundreds of grams. Real fat change, about 100 g a day, is buried under that noise.",
+    "That is why trials report weekly averages or fixed-day weights. A single day is noise, not data."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/seven-day-average.en.html",
+   "action": "checkin",
+   "actionLabel": "Log weight",
+   "trigger": {
+    "status": [
+     "insufficient"
+    ]
+   },
+   "priority": 70,
+   "publishedAt": "2026-09-27"
+  },
+  {
+   "id": "visit-report",
+   "lang": "en",
+   "title": "How to use a one-page report in a five-minute appointment",
+   "summary": "Follow-ups are short. Hand over one page instead of describing, and the conversation changes.",
+   "body": [
+    "Follow-ups are short. \"How has it been?\" \"Gained a bit.\" \"Appetite?\" \"Up a little.\" There is nothing in that exchange for a clinician to work with, so most end in \"let's hold for now\".",
+    "With those four on one page the clinician reads the situation in thirty seconds and spends the remaining four and a half minutes on the decision: maintenance dose, wider interval, or more time on routine.",
+    "Nobody reads several pages, and nobody wants to swipe through an app. One sheet of paper or one screen, readable top to bottom in thirty seconds: one chart, four numbers, a dose table."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/visit-report.en.html",
+   "action": "report",
+   "actionLabel": "Make the report",
+   "trigger": {
+    "minDay": 21
+   },
+   "priority": 50,
+   "publishedAt": "2026-11-01"
+  },
+  {
+   "id": "why-private",
+   "lang": "en",
+   "title": "Why Kept has no account",
+   "summary": "No account, no server. Your weight never leaves this phone.",
+   "body": [
+    "Many people never told their family they were on Wegovy. Friends got \"I'm taking better care of myself lately\". Someone like that has no wish to upload weight, appetite and dose logs to a server somewhere.",
+    "Through 2025 and 2026 several health apps were caught sharing records with ad SDKs or leaking them. Records that are not on a server cannot leak from one.",
+    "A PDF report to your clinician. A JSON backup to Files. Those are the only two ways data leaves the phone, and both need you to press share."
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/why-private.en.html",
+   "action": "none",
+   "actionLabel": null,
+   "trigger": {
+    "maxDay": 7
+   },
+   "priority": 40,
+   "publishedAt": "2026-11-15"
+  }
+ ]
+}
