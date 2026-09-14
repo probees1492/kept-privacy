@@ -1,6 +1,99 @@
 {
  "version": 1,
  "lang": "ja",
- "updatedAt": "",
- "insights": []
+ "updatedAt": "2026-09-13",
+ "insights": [
+  {
+   "id": "first-two-weeks",
+   "lang": "ja",
+   "title": "GLP-1の薬をやめて最初の2週間、体で起きていること",
+   "summary": "薬は一度に抜けません。半減期があるため、最初の2週間はまだ薬が残っている時間です。",
+   "body": [
+    "添付文書の情報では、セマグルチドの半減期は約1週間、チルゼパチドは約5日です。最後の投与から2週間たっても薬が一部残っているため、最初の2週間は静かに感じられることがあります。",
+    "薬をやめた後、体重は平均的に戻る傾向があります。2026年のメタ解析では平均で月0.4kg、セマグルチド・チルゼパチドの研究では月0.8kgでした（BMJ, 2026）。個人差は大きいです。",
+    "だから最初の2週間は記録の基準線を作る時間です。毎日体重ひとつと食欲スライダーふたつを残せば、その後の数週間と並べて比べられます。"
+   ],
+   "action": "checkin",
+   "trigger": {
+    "planType": [
+     "stopped"
+    ],
+    "maxDay": 14
+   },
+   "priority": 90,
+   "publishedAt": "2026-09-13",
+   "topic": "timeline",
+   "actionLabel": "今日を記録",
+   "sources": [
+    {
+     "label": "West S ほか. 体重管理薬の中止後の体重再増加：系統的レビューとメタ解析. BMJ 2026;392:e085304",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12776922/"
+    },
+    {
+     "label": "リラグルチド・セマグルチド・チルゼパチド中止後の体重再増加：無作為化試験のナラティブレビュー",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12155999/"
+    },
+    {
+     "label": "Cleveland Clinic ニュースルーム, 2026-03-12: GLP-1薬中止後の実臨床データ (Diabetes, Obesity and Metabolism 掲載)",
+     "url": "https://newsroom.clevelandclinic.org/2026/03/12/what-happens-when-patients-stop-taking-glp-1-drugs-new-cleveland-clinic-study-reveals-real-world-insights"
+    }
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/first-two-weeks.ja.html"
+  },
+  {
+   "id": "not-willpower",
+   "lang": "ja",
+   "title": "リバウンドは意志の問題ではありません",
+   "summary": "薬をやめた後に体重が戻ることは研究でもよく見られます。自分を責めるより記録が役に立ちます。",
+   "body": [
+    "GLP-1系の薬は食欲と満腹感の調節に関わります。減らしたりやめたりした後に空腹や食べ物の考えが以前のように感じられても、意志が弱くなったわけではありません。",
+    "中止後に体重が戻ることは研究でよく見られます（BMJ, 2026）。実臨床データでは主治医と別の治療や生活習慣のケアを続けた人が多く、1年後の平均再増加は小さいものでした（Cleveland Clinic, 2026）。",
+    "自分を責めて記録をやめると流れを見失います。推移画面で体重と食欲の記録を並べて見て、その記録を受診のときに見せてください。"
+   ],
+   "action": "trends",
+   "trigger": {
+    "status": [
+     "watch"
+    ]
+   },
+   "priority": 85,
+   "publishedAt": "2026-09-13",
+   "topic": "mind",
+   "actionLabel": "推移を見る",
+   "sources": [
+    {
+     "label": "West S ほか. 体重管理薬の中止後の体重再増加：系統的レビューとメタ解析. BMJ 2026;392:e085304",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12776922/"
+    },
+    {
+     "label": "Cleveland Clinic ニュースルーム, 2026-03-12: GLP-1薬中止後の実臨床データ (Diabetes, Obesity and Metabolism 掲載)",
+     "url": "https://newsroom.clevelandclinic.org/2026/03/12/what-happens-when-patients-stop-taking-glp-1-drugs-new-cleveland-clinic-study-reveals-real-world-insights"
+    }
+   ],
+   "url": "https://probees1492.github.io/kept-privacy/blog/not-willpower.ja.html"
+  },
+  {
+   "id": "restart-question",
+   "lang": "ja",
+   "title": "再開を考えたとき、受診に持っていく3つの記録",
+   "summary": "再開するかどうかは主治医と決めます。話を短く正確にしてくれる3つの記録です。",
+   "body": [
+    "薬を再開するか、どのように再開するかは、体の状態などを見ながら主治医と決めます。一人で結論を出すより、受診で見せる記録を準備するほうが役に立ちます。",
+    "持っていくとよい記録は3つです。開始時・最低・直近7日平均の体重、直近数週間の食欲とフードノイズのスコア、最後の投与日と用量・副作用のメモ。",
+    "Keptのレポートはこれらの記録をPDF1枚にまとめます。アプリの数値や状態表示は記録の要約で、再開するかどうかを決める基準ではありません。"
+   ],
+   "action": "report",
+   "trigger": {
+    "planType": [
+     "stopped"
+    ],
+    "minDay": 30
+   },
+   "priority": 70,
+   "publishedAt": "2026-09-13",
+   "topic": "clinic",
+   "actionLabel": "レポートを作る",
+   "url": "https://probees1492.github.io/kept-privacy/blog/restart-question.ja.html"
+  }
+ ]
 }
