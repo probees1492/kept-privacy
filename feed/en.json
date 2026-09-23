@@ -80,7 +80,7 @@
    "body": [
     "Whether to restart a medicine, and how, is decided with your clinician based on your health and other factors. Preparing records to show them helps more than deciding alone.",
     "Three records are worth bringing: starting, lowest and latest 7-day average weight; appetite and food-noise scores from recent weeks; and your last dose date, dose and side-effect notes.",
-    "The Kept report puts these on one PDF page. The numbers and status labels in the app summarise your records; they are not a threshold for restarting."
+    "The Konoma report puts these on one PDF page. The numbers and status labels in the app summarise your records; they are not a threshold for restarting."
    ],
    "action": "report",
    "trigger": {
