@@ -1,7 +1,7 @@
 {
  "version": 1,
  "lang": "ko",
- "updatedAt": "2026-09-13",
+ "updatedAt": "2026-09-20",
  "insights": [
   {
    "id": "first-two-weeks",
@@ -18,7 +18,8 @@
     "planType": [
      "stopped"
     ],
-    "maxDay": 14
+    "maxDay": 14,
+    "maxInstallDay": 14
    },
    "priority": 90,
    "publishedAt": "2026-09-13",
@@ -80,7 +81,7 @@
    "body": [
     "약을 다시 시작할지, 어떻게 할지는 건강 상태와 여러 요인을 보고 담당 의사와 정해요. 혼자 결론 내리기보다 진료 때 보여줄 기록을 준비하는 게 도움이 돼요.",
     "가져가면 좋은 기록은 세 가지예요. 시작·최저·최근 7일 평균 체중, 최근 몇 주의 식욕과 푸드노이즈 점수, 마지막 투여일과 용량·부작용 메모.",
-    "코노마 리포트는 이 기록을 PDF 한 장으로 정리해요. 앱에 표시되는 숫자와 상태는 기록 요약일 뿐, 재시작 여부를 정하는 기준이 아니에요."
+    "네버피기 리포트는 이 기록을 PDF 한 장으로 정리해요. 앱에 표시되는 숫자와 상태는 기록 요약일 뿐, 재시작 여부를 정하는 기준이 아니에요."
    ],
    "action": "report",
    "trigger": {
@@ -94,6 +95,26 @@
    "topic": "clinic",
    "actionLabel": "리포트 만들기",
    "url": "https://probees1492.github.io/kept-privacy/blog/restart-question.html"
+  },
+  {
+   "id": "food-noise",
+   "lang": "ko",
+   "title": "푸드노이즈, 기록해 두면 보이는 것",
+   "summary": "배고프지 않은데 음식 생각이 떠오르는 정도를 0~10으로 남기면 체중과 나란히 볼 수 있어요.",
+   "body": [
+    "푸드노이즈는 배고프지 않은데도 음식 생각이 자꾸 떠오르는 상태를 부르는 말이에요. 진단명은 아니지만 GLP-1 계열 약을 쓰거나 줄이는 사람들이 자주 이야기하는 변화예요.",
+    "체중은 물과 염분으로 하루에도 흔들려요. 0~10 점수로 매일 느낌을 남겨 두면 체중과는 다른 기록 선이 하나 생겨요.",
+    "몇 주가 쌓이면 추세 화면에서 체중과 나란히 볼 수 있어요. 변화가 계속되면 그 기록을 진료 때 보여주세요."
+   ],
+   "action": "checkin",
+   "trigger": {
+    "appetiteRising": true
+   },
+   "priority": 80,
+   "publishedAt": "2026-09-20",
+   "topic": "appetite",
+   "actionLabel": "푸드노이즈 기록",
+   "url": "https://probees1492.github.io/kept-privacy/blog/food-noise.html"
   }
  ]
 }
