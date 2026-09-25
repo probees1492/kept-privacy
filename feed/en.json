@@ -1,7 +1,7 @@
 {
  "version": 1,
  "lang": "en",
- "updatedAt": "2026-09-13",
+ "updatedAt": "2026-09-20",
  "insights": [
   {
    "id": "first-two-weeks",
@@ -18,7 +18,8 @@
     "planType": [
      "stopped"
     ],
-    "maxDay": 14
+    "maxDay": 14,
+    "maxInstallDay": 14
    },
    "priority": 90,
    "publishedAt": "2026-09-13",
@@ -80,7 +81,7 @@
    "body": [
     "Whether to restart a medicine, and how, is decided with your clinician based on your health and other factors. Preparing records to show them helps more than deciding alone.",
     "Three records are worth bringing: starting, lowest and latest 7-day average weight; appetite and food-noise scores from recent weeks; and your last dose date, dose and side-effect notes.",
-    "The Konoma report puts these on one PDF page. The numbers and status labels in the app summarise your records; they are not a threshold for restarting."
+    "The Never Piggy report puts these on one PDF page. The numbers and status labels in the app summarise your records; they are not a threshold for restarting."
    ],
    "action": "report",
    "trigger": {
@@ -94,6 +95,26 @@
    "topic": "clinic",
    "actionLabel": "Make the report",
    "url": "https://probees1492.github.io/kept-privacy/blog/restart-question.en.html"
+  },
+  {
+   "id": "food-noise",
+   "lang": "en",
+   "title": "Food noise: what logging it shows you",
+   "summary": "Score how often food thoughts show up when you are not hungry, from 0 to 10, and see it next to your weight.",
+   "body": [
+    "Food noise is a common name for food thoughts that keep coming back when you are not hungry. It is not a diagnosis, but people on or coming off GLP-1 medicines often mention it.",
+    "Weight shifts with water and salt from day to day. A daily 0 to 10 score adds a second line to your records that is separate from weight.",
+    "After a few weeks you can see it next to weight on Trends. If the change continues, show those records at your appointment."
+   ],
+   "action": "checkin",
+   "trigger": {
+    "appetiteRising": true
+   },
+   "priority": 80,
+   "publishedAt": "2026-09-20",
+   "topic": "appetite",
+   "actionLabel": "Log food noise",
+   "url": "https://probees1492.github.io/kept-privacy/blog/food-noise.en.html"
   }
  ]
 }
