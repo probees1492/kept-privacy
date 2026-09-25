@@ -1,7 +1,7 @@
 {
  "version": 1,
  "lang": "ja",
- "updatedAt": "2026-09-13",
+ "updatedAt": "2026-09-20",
  "insights": [
   {
    "id": "first-two-weeks",
@@ -18,7 +18,8 @@
     "planType": [
      "stopped"
     ],
-    "maxDay": 14
+    "maxDay": 14,
+    "maxInstallDay": 14
    },
    "priority": 90,
    "publishedAt": "2026-09-13",
@@ -80,7 +81,7 @@
    "body": [
     "薬を再開するか、どのように再開するかは、体の状態などを見ながら主治医と決めます。一人で結論を出すより、受診で見せる記録を準備するほうが役に立ちます。",
     "持っていくとよい記録は3つです。開始時・最低・直近7日平均の体重、直近数週間の食欲とフードノイズのスコア、最後の投与日と用量・副作用のメモ。",
-    "コノマのレポートはこれらの記録をPDF1枚にまとめます。アプリの数値や状態表示は記録の要約で、再開するかどうかを決める基準ではありません。"
+    "ネバーピギーのレポートはこれらの記録をPDF1枚にまとめます。アプリの数値や状態表示は記録の要約で、再開するかどうかを決める基準ではありません。"
    ],
    "action": "report",
    "trigger": {
@@ -94,6 +95,26 @@
    "topic": "clinic",
    "actionLabel": "レポートを作る",
    "url": "https://probees1492.github.io/kept-privacy/blog/restart-question.ja.html"
+  },
+  {
+   "id": "food-noise",
+   "lang": "ja",
+   "title": "フードノイズ、記録すると見えてくること",
+   "summary": "空腹でないのに食べ物の考えが浮かぶ度合いを0〜10で残すと、体重と並べて見られます。",
+   "body": [
+    "フードノイズは、空腹でないのに食べ物のことが何度も浮かぶ状態を指す言葉です。診断名ではありませんが、GLP-1系の薬を使ったり減らしたりしている人がよく話す変化です。",
+    "体重は水分や塩分で日々揺れます。0〜10のスコアで毎日の感覚を残しておくと、体重とは別の記録の線ができます。",
+    "数週間たまれば推移画面で体重と並べて見られます。変化が続くなら、その記録を受診のときに見せてください。"
+   ],
+   "action": "checkin",
+   "trigger": {
+    "appetiteRising": true
+   },
+   "priority": 80,
+   "publishedAt": "2026-09-20",
+   "topic": "appetite",
+   "actionLabel": "フードノイズを記録",
+   "url": "https://probees1492.github.io/kept-privacy/blog/food-noise.ja.html"
   }
  ]
 }
